@@ -1,0 +1,14 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+:root{
+--grey-color:#DFDFDF;
+--grey-color-dark-2:#9B9B9B;
+--grey-color-dark-3:#4A4A4A;
+--grey-border-color:#d0cccc;
+}
+svg{
+  height:20px
+}

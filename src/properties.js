@@ -1,0 +1,3 @@
+export const MOVIE_API='https://api.themoviedb.org/3/movie/upcoming';
+export const MOVIE_API_KEY='Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiYmIwNzM0ZTQwNTM3MThiYTYzMGYzODIwZDQ3ZDUxNSIsInN1YiI6IjY0ZGFlMzAzNTllOGE5MDBlMjI3NWY2OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.PFrY0Xqp8Kn3cmyBm2aBeM_ZdOWqcYCOYsr_BKZPST4'
+export const MOVIE_ACCESS_KEY="bbb0734e4053718ba630f3820d47d515"
