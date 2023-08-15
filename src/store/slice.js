@@ -15,10 +15,10 @@ export const fetchContent = createAsyncThunk(
             method: 'GET',
             headers: {
             accept: 'application/json',
-            Authorization: MOVIE_API_KEY
+            Authorization: process.env.REACT_APP_MOVIE_API_KEY
             }
         };
-        let data=await fetch(MOVIE_API,options)
+        let data=await fetch(process.env.REACT_APP_MOVIE_API,options)
         data= await data.json()
         return data
         
@@ -30,13 +30,8 @@ export const slice = createSlice({
   initialState,
   reducers: {
     update_filtered_upcoming_movies: (state,action) => {
-        console.log("in reducer",action)
       state.filtered_upcoming_movies = action.payload
     },
-    set_all_upcoming_movies: (state,action) => {
-        state.all_upcoming_movies = action.payload
-        state.filtered_upcoming_movies = action.payload
-      },
       set_error_state:(state,action)=>{
           state.error=action.payload
       }
