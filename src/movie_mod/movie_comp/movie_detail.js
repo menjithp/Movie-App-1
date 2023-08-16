@@ -22,7 +22,6 @@ export default () => {
     dispatch(setpage("detail_page"))
   }
 
-  console.log("moviers",movies)
   if (movies) {
     particular_movie = movies.results.filter(
       (movie) => movie.title === movie_title
