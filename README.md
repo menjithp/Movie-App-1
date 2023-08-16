@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# DEPLOYED APP LINK
+https://gsiv23-menjith-p.vercel.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## how to run app
+1.Download the repository
+2.open folder in visual studio code or ur desired editor.
+3.create .env file in same directory.Add your movie api key like this. REACT_APP_MOVIE_API_KEY=(your Access token).I given procdure for creating api key below .
+4.open terminal & run following command --> npm install
+5.npm start (for development)
 
-## Available Scripts
+### To get an API Key:
+1. Create a personal account at: https://www.themoviedb.org/account/signup
+2. Once you have created an account, go to:
+https://www.themoviedb.org/settings/api to create an API key
+a. Usage: Personal
+b. Application Name: Interview
+c. Application URL: None
+d. Application Summary: For a developer interview project
 
-In the project directory, you can run:
+### List elements from the challenge that you think you have done well, and that exemplify your proficiency.why you chose those elements, and how they demonstrate your proficiency?
+ 1. I done both filtering and load more simultaneously meaning user write input & they click load more button new results fetched also filtered and shown to user.The upcoming movie api gives 576 movie results .so filtering new results also and showing only desired movies is good option.
+ 2. In movie detail page , if user accidently click browser refresh button then our app is able to load same data again instead of routing user again to home page and do filtering again and the reach detail page. (i thought it good user experience).
+ 3. I implemented loading bar in app similar to how our app layout look alike in both home route and movie detail route.when app load initially user will get idea of how our app structure look alike before data loading.
+### List what you would do to improve your solution if you had 4 more hours available for this task. Describe why you would do those things
+  1.i will write test case for the app.
+  2.i am interested to implemented infinite scrolling instead of clicking load more button in app which is very smoothy experience.
+  3.Now user need to click load more button and do filtering to get their desired movie which is bad experience.I mean upcomin movie api giving only 20 movie detail at a time .so if we allow user to filtering from backend it would be very good user experience , since now they need to click load more everytime.
 
-### `npm start`
+### Any feedback about how we may improve this challenge.
+upcoming movie api giving backdrop path & poster path for images in frontend but when i try to load images getting 401 error .I am not able to find correct api for loading backdrop images and poster images . so that need to be briefed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 
+ 
