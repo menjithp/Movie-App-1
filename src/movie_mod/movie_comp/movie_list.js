@@ -1,13 +1,8 @@
 import MovieCard from "./movie_card";
-import { MoreMenu } from "../icons";
-import { useDispatch ,useSelector} from "react-redux";
-import { fetchContent } from "../../store/slice";
 
 export default ({ movie_list }) => {
   
-  const { results, page, total_pages } = movie_list;
-  const dispatch = useDispatch();
-  const state = useSelector((state) => state.upcoming_movie_list_reducer);
+  const { results} = movie_list;
   return (
     <>
       <div className="mx-3 my-2 pt-1 grid-display">
@@ -20,14 +15,6 @@ export default ({ movie_list }) => {
             );
           })}
       </div>
-      
-        {page <= total_pages  && (<div className="w-100">
-          <button className="fetch-more" onClick={() => dispatch(fetchContent(page + 1))}>
-           <MoreMenu />
-          </button>
-          </div>
-        )}
-     
     </>
   );
 };
