@@ -1,0 +1,44 @@
+.main-item {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.background-masker {
+  background-color: #fff;
+  position: absolute;
+  height: 250px;
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -800px 0;
+  }
+  100% {
+    background-position: 800px 0;
+  }
+}
+
+.animated-background {
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background-color: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #bbbbbb 18%, #eeeeee 33%);
+  background-size: 800px 104px;
+  height: 200px;
+  position: relative;
+}
+.movie-card-animate-container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  height: 300px;
+}
+.level-list-1 {
+  height: 20px;
+  width: 150px;
+}
+.level-list-2 {
+  height: 15px;
+}

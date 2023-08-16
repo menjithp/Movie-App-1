@@ -1,0 +1,14 @@
+.movie-detail-container {
+  padding: 20px;
+  padding-top:10px;
+  gap: 10px;
+  color: var(--grey-color-dark-3) !important;
+}
+.movie-poster {
+  flex-basis: 250px;
+  flex-shrink:  0 !important;
+  border: 2px solid var(--grey-border-color);
+  background-color:var(--grey-color);
+  min-height:200px;
+}
+
