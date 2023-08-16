@@ -8,14 +8,13 @@ import { Provider } from 'react-redux'
 
 //importing css
 import 'bootstrap/dist/css/bootstrap.css';
+import 'react-tooltip/dist/react-tooltip.css'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
-  <React.StrictMode>
     <App />
-  </React.StrictMode>
   </Provider>
 );
 
