@@ -1,9 +1,0 @@
-.movie-detail-container {
-  padding: 20px;
-  gap: 10px;
-  color: var(--grey-color-dark-3) !important;
-}
-.movie_poster {
-  width: 250px;
-  border: 2px solid var(--grey-border-color);
-}
