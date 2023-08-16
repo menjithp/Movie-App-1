@@ -10,7 +10,8 @@ const initialState = {
   isLoading:true,
   page_no:1,
   input:null,
-  source_data:null
+  source_data:null,
+  total_pages:null
 }
 export const helper_fetch= async(page_no) => {
   const options = {
@@ -76,7 +77,8 @@ export const slice = createSlice({
       state.filtered_upcoming_movies={...action.payload,results:filter_movie_arr}
       state.source_data=source
       state.isLoading=false
-     
+      state.page_no=action.payload.page
+      state.total_pages=action.payload.total_pages
     })
     builder.addCase(fetchContent.rejected, (state, action) => {
       state.error = action.error.message
