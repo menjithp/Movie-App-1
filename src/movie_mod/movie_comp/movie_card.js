@@ -12,7 +12,7 @@ export default ({ data }) => {
       <div className="image-backdrop" />
       <div className="px-2">
         <div className="d-flex align-items-center justify-content-between gap-7">
-          <span data-tooltip-id="my-tooltip" data-tooltip-content={title} className="ellipsis-box cut-oneline title-element">
+          <span className="ellipsis-box cut-oneline title-element">
             {title}
           </span>
           <span className="vote">({vote_average})</span>
