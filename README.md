@@ -1,5 +1,5 @@
 # DEPLOYED APP LINK
-https://gsiv23-menjith-p.vercel.app/
+https://movie-app-testing-provider-redux.vercel.app/
 
 ## how to run app
 1.Download the repository
@@ -7,6 +7,11 @@ https://gsiv23-menjith-p.vercel.app/
 3.create .env file in same directory.Add your movie api key like this. REACT_APP_MOVIE_API_KEY=(your Access token).I given procdure for creating api key below .
 4.open terminal & run following command --> npm install
 5.npm start (for development)
+
+## how to test app
+run npm test
+src folder state value provider --->context
+src_redux_toolkit  state value provider ---->redux
 
 ### To get an API Key:
 1. Create a personal account at: https://www.themoviedb.org/account/signup
