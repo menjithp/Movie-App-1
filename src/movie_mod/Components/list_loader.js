@@ -2,7 +2,7 @@ import "./list_loader.css";
 export default () => (
   <div className="my-2 pt-1 grid-display main-item">
     {Array.from(Array(20)).map((x, i) => (
-      <div className="movie-card-animate-container">
+      <div  key={i} className="movie-card-animate-container">
         <div className="animated-background">
           <div className="background-masker"></div>
         </div>

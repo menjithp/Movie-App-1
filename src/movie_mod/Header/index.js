@@ -10,7 +10,7 @@ export default () => {
  const dispatch=useDispatch();
   return (
     <div className="header px-3 py-2">
-      {state.page === "list_page" ? <Search /> : <div className=" d-flex align-items-center justify-content-between">
+      {state.page === "list_page" ? <Search /> : <div className="movie-detail-things d-flex align-items-center justify-content-between">
             <div>
                 <button className="left_Arrow" onClick={() => {navigate("/");dispatch(setpage("list_page"))}}>
                     <ArrowLeft/>
