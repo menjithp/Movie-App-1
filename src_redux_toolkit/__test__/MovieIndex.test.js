@@ -25,7 +25,7 @@ describe('movie index component test',()=>{
 
 
 
-describe.only('load-more-button',()=>{
+describe('load-more-button',()=>{
     test('fetch more checking',async()=>{
         const {container}=render(
             <Provider store={store}>
@@ -44,14 +44,12 @@ describe.only('load-more-button',()=>{
         await waitFor(async()=>{
             let movieCards = screen.getAllByTestId('movie-card');
             expect(movieCards).toHaveLength(40)
-            console.log('2nd', movieCards.length);
         })
 
         fireEvent.click(loadbutton)
         await waitFor(async()=>{
             let movieCards = screen.getAllByTestId('movie-card');
             expect(movieCards).toHaveLength(60)
-            console.log('2nd', movieCards.length);
         })
 
 

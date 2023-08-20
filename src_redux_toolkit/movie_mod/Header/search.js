@@ -1,25 +1,25 @@
-import { Context } from "../../App";
 import { Search } from "../icons";
-import { useContext, useRef} from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { update_filtered_upcoming_movies,set_input_element } from "../../store/slice";
+import { useEffect ,useRef} from "react";
 
 export default () => {
-  const {state,dispatch} = useContext(
-   Context
+  const movies = useSelector(
+    (state) => state.upcoming_movie_list_reducer.all_upcoming_movies
   );
-
-  const movies=state.all_upcoming_movies
-
+  const dispatch = useDispatch();
   const input_elemet=useRef()
 
   const update_movie_list = (e) =>{
     dispatch(
-      {
-        type:"update_filtered_upcoming_movies",data:{
+      update_filtered_upcoming_movies({
         ...movies,
         results: movies.results.filter((movie) =>
-          movie.title.toUpperCase().includes(e.target.value.toUpperCase()))      
-  }})
-    dispatch({type:"set_input_element",data:input_elemet.current.value})
+          movie.title.toUpperCase().includes(e.target.value.toUpperCase())
+        ),
+      })
+    );
+    dispatch(set_input_element(input_elemet.current.value))
   }
 
   return (

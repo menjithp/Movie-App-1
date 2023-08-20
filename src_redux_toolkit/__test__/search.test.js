@@ -1,10 +1,9 @@
-import {screen,render, waitFor,act} from '@testing-library/react'
+import {screen,render, waitFor,act} from './utils/test-utils'
 import Search from '../movie_mod/Header/search'
 import response from '../response/response1.json'
 import Movie_list from '../movie_mod/movie_comp/movie_list'
 import { MemoryRouter } from 'react-router-dom'
 import userEvent from '@testing-library/user-event'
-import {ContextProvider} from '../App'
 
 const initialState = {
   filtered_upcoming_movies:response,
@@ -21,12 +20,14 @@ const initialState = {
 describe('search input check',()=>{
     test('test filtering logic',async()=>{
 
-        const {container}=render(  <ContextProvider teststate={initialState}>
+        const {container}=render(     
             <MemoryRouter>
                 <Search />
                 <Movie_list/>
             </MemoryRouter>
-            </ContextProvider>  
+           ,{
+      preloadedState: { upcoming_movie_list_reducer: initialState },
+    }  
         )
         
         const input=screen.getByRole("textbox")
