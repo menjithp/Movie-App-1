@@ -8,7 +8,7 @@ export default ({ data }) => {
   const dispatch=useDispatch()
 
   return (
-    <div className="movie-card" onClick={() => {navigate(title+"_page"+data.page);dispatch(setpage("detail_page"))}}>
+    <div className="movie-card" data-testid="movie-card" onClick={() => {navigate(title+"_page"+data.page);dispatch(setpage("detail_page"))}}>
       <div className="image-backdrop" />
       <div className="px-2">
         <div className="d-flex align-items-center justify-content-between gap-7">

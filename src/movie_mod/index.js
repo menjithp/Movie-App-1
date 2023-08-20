@@ -22,7 +22,7 @@ export default () => {
       {state.isLoading && <Loader />}
       {state.error && <p className="red-text">state.error</p>}
       {state.page_no <= state.total_pages  && (<div className="w-100">
-          <button data-tooltip-id="my-tooltip" data-tooltip-content="Load more data" className="fetch-more" onClick={() => dispatch(fetchContent(state.page_no + 1))}>
+          <button data-testid="load-more" data-tooltip-id="my-tooltip" data-tooltip-content="Load more data" className="fetch-more" onClick={() => dispatch(fetchContent(state.page_no + 1))}>
            <MoreMenu />
           </button>
           </div>
