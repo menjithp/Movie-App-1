@@ -1,1 +1,1 @@
-export const MOVIE_API='https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=';
+export const MOVIE_API='https://api.themoviedb.org/3/movie/upcoming';

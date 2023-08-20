@@ -3,11 +3,11 @@ import "./movie_detail.css";
 import { fetchContent ,setpage,helper_fetch, set_all_upcoming_movies} from "../../store/slice";
 import { useSelector, useDispatch } from "react-redux";
 import DetailLoader from "../Components/detail_loader";
+import { useEffect } from "react";
 
 export default () => {
   const params = useParams();
   const movie_title_params = params.movie_title.split("_page");
-  console.log(movie_title_params)
   const movie_title=movie_title_params[0]
   const page_number=+movie_title_params[1]
   const state = useSelector((state) => state.upcoming_movie_list_reducer);
@@ -15,19 +15,25 @@ export default () => {
   let particular_movie;
   const dispatch = useDispatch();
 
-  if (!movies) {
-    for (let i=1;i<page_number+1;i++){
-      dispatch(fetchContent(i))
-    }
-    dispatch(setpage("detail_page"))
-  }
 
+  useEffect(()=>{
+    if (!movies) {
+      for (let i=1;i<page_number+1;i++){
+        dispatch(fetchContent(i))
+      }
+      dispatch(setpage("detail_page"))
+    }
+  
+  },[])
   if (movies) {
     particular_movie = movies.results.filter(
-      (movie) => movie.title === movie_title
+      (movie) =>{
+        return movie.title === movie_title
+      } 
     );
     particular_movie = particular_movie[0];
   }
+
 
   return state.isLoading ? (
     <DetailLoader />

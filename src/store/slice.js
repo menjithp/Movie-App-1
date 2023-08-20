@@ -21,8 +21,10 @@ export const helper_fetch= async(page_no) => {
       Authorization: process.env.REACT_APP_MOVIE_API_KEY
       }
   };
-  let data=await fetch(MOVIE_API+page_no,options)
+
+  let data=await fetch(MOVIE_API+"?language=en-US&page="+page_no,options)
   data= await data.json()
+
   return data
   
 }
@@ -66,11 +68,13 @@ export const slice = createSlice({
       Object.keys(source).forEach(key=>{
         all_movie_arr.push(...source[key].results)
       })
-      let user_input=state.input.value.toUpperCase().trim()
+      
       let filter_movie_arr;
+      let user_input=state.input?.toUpperCase().trim()
       if (user_input){
       filter_movie_arr=all_movie_arr.filter(movie=>movie.title.toUpperCase().includes(user_input))
-      }else{
+      }
+      else{
         filter_movie_arr=all_movie_arr
       }
       state.all_upcoming_movies={...action.payload,results:all_movie_arr}
