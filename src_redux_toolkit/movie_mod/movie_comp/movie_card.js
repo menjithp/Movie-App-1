@@ -1,18 +1,14 @@
 import "./movie_card.css";
-import { useNavigate } from "react-router-dom";
-import { useContext } from "react";
-import { Context } from "../../App";
-
+import { useNavigate, Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import {setpage} from '../../store/slice'
 export default ({ data }) => {
   const { title, overview, vote_average } = data;
   const navigate = useNavigate();
-  const {dispatch}=useContext(Context)
+  const dispatch=useDispatch()
 
   return (
-    <div className="movie-card" data-testid="movie-card" onClick={() => {
-      navigate(title+"_page"+data.page)
-      dispatch({type:"setpage",data:"detail_page"})
-    }}>
+    <div className="movie-card" data-testid="movie-card" onClick={() => {navigate(title+"_page"+data.page);dispatch(setpage("detail_page"))}}>
       <div className="image-backdrop" />
       <div className="px-2">
         <div className="d-flex align-items-center justify-content-between gap-7">

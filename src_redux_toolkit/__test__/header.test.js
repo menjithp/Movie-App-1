@@ -1,10 +1,10 @@
-import {screen ,render,waitFor, fireEvent} from '@testing-library/react'
+import {screen ,render,waitFor, fireEvent} from './utils/test-utils'
 import Header from '../movie_mod/Header'
 import { MemoryRouter,Routes,Route } from 'react-router-dom'
+import {store} from '../store/store'
 import response from '../response/response1.json'
 import MovieDetail from '../movie_mod/movie_comp/movie_detail'
 import MovieIndex from '../movie_mod/index'
-import {ContextProvider} from '../App'
 
 const initialState = {
     filtered_upcoming_movies:response,
@@ -20,10 +20,11 @@ const initialState = {
 describe('header component route "/" check',()=>{
     test('input element in the document',()=>{
        const{container}= render(
-        <ContextProvider teststate={initialState}>
             <MemoryRouter>
                 <Header />
-            </MemoryRouter></ContextProvider>)
+            </MemoryRouter>,{
+      preloadedState: { upcoming_movie_list_reducer: initialState },
+    })
 
     const input=screen.getByRole("textbox")
     expect(input).toBeInTheDocument()
@@ -35,7 +36,6 @@ describe('header component route "/" check',()=>{
 describe('header component route "/:movie_title"',()=>{
     test('/:movie_title',async()=>{
         const {container}=render(
-            <ContextProvider teststate={initialState}>
             <MemoryRouter initialEntries={["/"]}>
                 <Header/>
                 <Routes>
@@ -43,7 +43,8 @@ describe('header component route "/:movie_title"',()=>{
                     <Route path="/:movie_title" element={<MovieDetail/>}/>
                 </Routes>
 
-            </MemoryRouter></ContextProvider>
+            </MemoryRouter>,{
+      preloadedState: { upcoming_movie_list_reducer: initialState }}
         )
          const cards=await waitFor(()=>container.querySelector(".movie-card"))
          let movie_detail_thing=container.querySelector(".movie-detail-things")

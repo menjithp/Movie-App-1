@@ -1,29 +1,27 @@
 import { useParams } from "react-router-dom";
 import "./movie_detail.css";
+import { fetchContent ,setpage,helper_fetch, set_all_upcoming_movies} from "../../store/slice";
+import { useSelector, useDispatch } from "react-redux";
 import DetailLoader from "../Components/detail_loader";
-import { useContext, useEffect } from "react";
-import { Context } from "../../App";
-import { helper_fetch } from "../index";
+import { useEffect } from "react";
 
 export default () => {
   const params = useParams();
   const movie_title_params = params.movie_title.split("_page");
   const movie_title=movie_title_params[0]
   const page_number=+movie_title_params[1]
-  const {state,dispatch}= useContext(Context);
-
+  const state = useSelector((state) => state.upcoming_movie_list_reducer);
   const movies = state.filtered_upcoming_movies;
   let particular_movie;
+  const dispatch = useDispatch();
 
 
   useEffect(()=>{
     if (!movies) {
-      dispatch({type:"loading_true"})
       for (let i=1;i<page_number+1;i++){
-        helper_fetch(i).
-            then(response=>dispatch({type:"set_all_upcoming_movies",data:response}))
+        dispatch(fetchContent(i))
       }
-      dispatch({type:"setpage",data:"detail_page"})
+      dispatch(setpage("detail_page"))
     }
   
   },[])
