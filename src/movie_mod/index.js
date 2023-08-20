@@ -15,6 +15,7 @@ export default () => {
     dispatch(fetchContent(1));
   }, []);
 
+
   return (
     <>
       {movies?.results?.length ? <MovieList movie_list={movies} />:(!state.isLoading && !state.error && <p className="blue-text">No Movies To Display </p>)}

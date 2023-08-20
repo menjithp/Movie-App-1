@@ -10,7 +10,7 @@ export default () => {
   const dispatch = useDispatch();
   const input_elemet=useRef()
 
-  const update_movie_list = (e) =>
+  const update_movie_list = (e) =>{
     dispatch(
       update_filtered_upcoming_movies({
         ...movies,
@@ -19,11 +19,9 @@ export default () => {
         ),
       })
     );
- useEffect(()=>{
-  if(input_elemet.current){
-    dispatch(set_input_element(input_elemet.current))
+    dispatch(set_input_element(input_elemet.current.value))
   }
- },[])
+
   return (
       <div className="input-search d-flex align-items-center col col-sm-4">
         <Search />
