@@ -1,0 +1,5 @@
+.image-container{
+  height: 250px;
+  background-color: var(--grey-color-2);
+  cursor:pointer;
+}

@@ -1,0 +1,398 @@
+{
+    "dates": {
+        "maximum": "2023-09-10",
+        "minimum": "2023-08-26"
+    },
+    "page": 2,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/8ITl6ukrpwlavJhdribfSKQI6ku.jpg",
+            "genre_ids": [
+                28,
+                12,
+                16,
+                10751
+            ],
+            "id": 9806,
+            "original_language": "en",
+            "original_title": "The Incredibles",
+            "overview": "Bob Parr has given up his superhero days to log in time as an insurance adjuster and raise his three children with his formerly heroic wife in suburbia. But when he receives a mysterious assignment, it's time to get back into costume.",
+            "popularity": 69.073,
+            "poster_path": "/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
+            "release_date": "2004-10-27",
+            "title": "The Incredibles",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 16465
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/wNYUv8u5Z0AI4dkyxGyet7eLEWm.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 945675,
+            "original_language": "zh",
+            "original_title": "一周的朋友",
+            "overview": "A new transfer student, Lin Xiangzhi (Zhao Jinmai), who is quiet and intelligent but always alone, does not make friends with the other students. However, she attracts the attention of Xu Youshu (Lin Yi), a scum of the class. In the process of trying to befriend Lin Xiangzhi, he, the eccentric Song Xiaonan (Shen Yue) and the cool-headed Jiang Wu (Wang Jiahui) discover Lin Xiangzhi's secret, that she suffers from a special disease and her memory of her friends is only seven days.",
+            "popularity": 57.065,
+            "poster_path": "/9Adt7lE79voOqRzYhe4mNnHqUoo.jpg",
+            "release_date": "2022-06-18",
+            "title": "One Week Friends",
+            "video": false,
+            "vote_average": 5.7,
+            "vote_count": 108
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tUlUdP04nDWsy372myIHuA2qdNv.jpg",
+            "genre_ids": [
+                28,
+                53,
+                80,
+                18
+            ],
+            "id": 762430,
+            "original_language": "en",
+            "original_title": "Retribution",
+            "overview": "When a mysterious caller puts a bomb under his car seat, Matt Turner begins a high-speed chase across the city to complete a specific series of tasks. With his kids trapped in the backseat and a bomb that will explode if they get out of the car, an everyday commute becomes a twisted game of life or death as Matt follows the stranger’s increasingly dangerous instructions in a race against time to save his family.",
+            "popularity": 67.093,
+            "poster_path": "/oUmmY7QWWn7OhKlcPOnirHJpP1F.jpg",
+            "release_date": "2023-08-23",
+            "title": "Retribution",
+            "video": false,
+            "vote_average": 4,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tOfJuyfEbUMSSyBK24CAehphKwD.jpg",
+            "genre_ids": [
+                18,
+                10749,
+                53
+            ],
+            "id": 603204,
+            "original_language": "en",
+            "original_title": "Stars at Noon",
+            "overview": "In present-day Nicaragua, a headstrong American journalist and a mysterious English businessman strike up a romance as they become embroiled in a dangerous labyrinth of lies and conspiracies and are forced to try and escape the country.",
+            "popularity": 41.932,
+            "poster_path": "/viR50oQCs8ObciADFGWHUyChexZ.jpg",
+            "release_date": "2022-10-14",
+            "title": "Stars at Noon",
+            "video": false,
+            "vote_average": 6,
+            "vote_count": 55
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jg1UcvnzTiLNOdzYnmrroDkQYbM.jpg",
+            "genre_ids": [
+                16,
+                12,
+                35,
+                10751,
+                14
+            ],
+            "id": 681303,
+            "original_language": "de",
+            "original_title": "Meine Chaosfee & Ich",
+            "overview": "Violetta (337), a curious and cheeky fairy, gets lost in the human world. To find her way back to the fairy world, she teams up with the human girl Maxie (12) and discovers her true destiny.",
+            "popularity": 41,
+            "poster_path": "/wXsCtzppdU1SUvTtxznJyi9hiXv.jpg",
+            "release_date": "2022-10-13",
+            "title": "My Fairy Troublemaker",
+            "video": false,
+            "vote_average": 7.6,
+            "vote_count": 28
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/qwMSnVhWcVfa769D5NbgjgPwRil.jpg",
+            "genre_ids": [
+                18,
+                35
+            ],
+            "id": 848958,
+            "original_language": "fr",
+            "original_title": "Les Amandiers",
+            "overview": "At the end of the 1980s, Stella, Victor, Adèle and Etienne are 20 years old. They take the entrance exam to the famous acting school created by Patrice Chéreau and Pierre Romans at the Théâtre des Amandiers in Nanterre. Launched at full speed into life, passion, and love, together they will experience the turning point of their lives, but also their first tragedy.",
+            "popularity": 46.838,
+            "poster_path": "/oFNR1R5PTQFC5j6EZRMv2TpeHco.jpg",
+            "release_date": "2022-11-16",
+            "title": "Forever Young",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 94
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fIQfdZ6fqf9mIbqBaexbgIEIk5K.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 864168,
+            "original_language": "en",
+            "original_title": "Joy Ride",
+            "overview": "When Audrey's business trip to Asia goes sideways, she enlists the aid of Lolo, her irreverent, childhood best friend who also happens to be a hot mess; Kat, her college friend turned Chinese soap star; and Deadeye, Lolo's eccentric cousin. Their no-holds-barred, epic experience becomes a journey of bonding, friendship, belonging, and wild debauchery that reveals the universal truth of what it means to know and love who you are.",
+            "popularity": 45.952,
+            "poster_path": "/lTZ3r9NBdbrR6NA90v3hFYqd6TC.jpg",
+            "release_date": "2023-06-22",
+            "title": "Joy Ride",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 119
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4TP35MMt9haLLtNWw4tCi1OFUnj.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 978415,
+            "original_language": "es",
+            "original_title": "Los agitadores",
+            "overview": "In the heat of the summer, Andy leaves the city in order to spend some time at a luxury villa with his best friends. As they party and goof around, their initial consensual horseplay reveals that they each have different personal boundaries.",
+            "popularity": 40.167,
+            "poster_path": "/2PfLCKM4YuaWOfbgn5VGihBF5ls.jpg",
+            "release_date": "2023-06-01",
+            "title": "Horseplay",
+            "video": false,
+            "vote_average": 10,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xH1fADDlEQMXreGClUCxA0XrJPC.jpg",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "id": 982271,
+            "original_language": "en",
+            "original_title": "Book Club: The Next Chapter",
+            "overview": "Four best friends take their book club to Italy for the fun girls' trip they never had. When things go off the rails and secrets are revealed, their relaxing vacation turns into a once-in-a-lifetime cross-country adventure.",
+            "popularity": 27.78,
+            "poster_path": "/lXoeOcWWhPpLH1wzTIhOx8jydBo.jpg",
+            "release_date": "2023-05-11",
+            "title": "Book Club: The Next Chapter",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 80
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/g8kCHQzfogy1t1dE9nPBtiFkz64.jpg",
+            "genre_ids": [
+                53,
+                878,
+                18
+            ],
+            "id": 729854,
+            "original_language": "ko",
+            "original_title": "콘크리트 유토피아",
+            "overview": "The world has been reduced to rubble by a massive earthquake. While no one knows for sure how far the ruins stretch, or what the cause of the earthquake may be, in the heart of Seoul there is only one apartment building left standing. It is called Hwang Gung Apartments.",
+            "popularity": 37.321,
+            "poster_path": "/bHH5jiumG6QXpvKfUEN2QsaBVV.jpg",
+            "release_date": "2023-08-09",
+            "title": "Concrete Utopia",
+            "video": false,
+            "vote_average": 6,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/g4PPLhDdjLf3gtuaLck8TsmsBZD.jpg",
+            "genre_ids": [
+                80,
+                18,
+                9648,
+                53
+            ],
+            "id": 1077670,
+            "original_language": "en",
+            "original_title": "Limbo",
+            "overview": "Travis, a jaded detective, arrives in the remote outback town of Limbo to investigate the cold case murder of local Indigenous girl Charlotte Hayes 20 years ago. As truths about the murder begin to unfold, the detective gains a new insight into the unsolved case.",
+            "popularity": 37.922,
+            "poster_path": "/g9I1TsGYWMOiFSMfyRTnjhP9hdN.jpg",
+            "release_date": "2023-05-18",
+            "title": "Limbo",
+            "video": false,
+            "vote_average": 5.8,
+            "vote_count": 9
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4hAhZ66n5iasGtSYHTFg6oGdJk0.jpg",
+            "genre_ids": [
+                53,
+                27,
+                878
+            ],
+            "id": 660942,
+            "original_language": "no",
+            "original_title": "De uskyldige",
+            "overview": "Four children become friends during the summer holidays, and out of sight of the adults they discover they have hidden powers. While exploring their newfound abilities in the nearby forests and playgrounds, their innocent play takes a dark turn and strange things begin to happen.",
+            "popularity": 19.521,
+            "poster_path": "/dqvkxOLmnHgDOqZlT7GgMWEQViR.jpg",
+            "release_date": "2021-09-03",
+            "title": "The Innocents",
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 421
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1jCXk512KPr6MzXEZf7UH4fbtba.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 800787,
+            "original_language": "en",
+            "original_title": "A Good Person",
+            "overview": "Allison's life falls apart following her involvement in a fatal accident. The unlikely relationship she forms with her would-be father-in-law helps her live a life worth living.",
+            "popularity": 29.794,
+            "poster_path": "/6toz74j1OgbQrsZUjgr2Ohs1AsE.jpg",
+            "release_date": "2023-03-23",
+            "title": "A Good Person",
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 159
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/oMsoN3RsJEjxOWcImvwTffEnkMd.jpg",
+            "genre_ids": [
+                16,
+                10751
+            ],
+            "id": 987750,
+            "original_language": "es",
+            "original_title": "Inspector Sun y la maldición de la viuda negra",
+            "overview": "Shanghai, 1934. In an insect world parallel to that of humans, veteran Inspector Sun, a lone spider, leads his last mission against his archenemy the Red Locust, before embarking on a well-deserved retirement. His vacation aboard a Pan Am clipper between Shanghai and San Francisco comes to an abrupt end when millionaire Dr. Spindelthorp is found murdered. What begins as a routine case for Sun will ultimately decide the fate of humanity.",
+            "popularity": 27.538,
+            "poster_path": "/v1Wj5lzvsvFbXHdrmYGdXL10Q73.jpg",
+            "release_date": "2022-12-28",
+            "title": "Inspector Sun and the Curse of the Black Widow",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 130
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5cdSqqn5fglcggXqh2jpPHCqSrN.jpg",
+            "genre_ids": [
+                27
+            ],
+            "id": 977209,
+            "original_language": "zh",
+            "original_title": "化劫",
+            "overview": "Ah Dai comes from a family that runs a prestigious orthodox temple. His childhood sweetheart, Yufan, is desperate to locate her missing aunt. In his attempt to help, Ah Dai agrees to participate in a special ritual that his schoolmates believe could help them seek assistance from the gods to grant their desires. However, they are lured into praying to evil forces instead. As his schoolmates die one after another, Ah Dai tries to use his gift to exorcise evil to save his friends. At the very end, he faces a completely demonized Yufan and must fight her to save the neighborhood.",
+            "popularity": 31.179,
+            "poster_path": "/mhFId4b90R5ZrPqYfg5TU0LKm3P.jpg",
+            "release_date": "2023-06-21",
+            "title": "Antikalpa",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hvqNAz3cq48sh9GKxu4lPiogfBo.jpg",
+            "genre_ids": [
+                28,
+                53,
+                80
+            ],
+            "id": 996154,
+            "original_language": "en",
+            "original_title": "Black Lotus",
+            "overview": "An ex-special forces operative wages a one man war through the streets of Amsterdam to rescue his friend's daughter from the local crime syndicate.",
+            "popularity": 34.839,
+            "poster_path": "/y3AeW200hqGLxoPyHMDHpzudylz.jpg",
+            "release_date": "2023-04-12",
+            "title": "Black Lotus",
+            "video": false,
+            "vote_average": 5.9,
+            "vote_count": 14
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xsU07B1SKm1Kp0qCOGXUdtJ26y7.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 898673,
+            "original_language": "fr",
+            "original_title": "Passages",
+            "overview": "Tomas and Martin are a gay couple living in Paris whose marriage is thrown into crisis when Tomas impulsively begins a passionate affair with young schoolteacher Agathe. But when Martin begins an affair of his own, Tomas must confront life decisions he may be unprepared—or unwilling—to deal with.",
+            "popularity": 22.584,
+            "poster_path": "/fRTmo5QcPbTc2nV39IWkRhD61Q1.jpg",
+            "release_date": "2023-06-28",
+            "title": "Passages",
+            "video": false,
+            "vote_average": 6.5,
+            "vote_count": 13
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9fUu0jwR1V5OJ9M1G4XCDsD4sQz.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 666277,
+            "original_language": "en",
+            "original_title": "Past Lives",
+            "overview": "Two childhood friends are separated after one’s family emigrates from South Korea. Two decades later, they are reunited in New York for one week as they confront notions of destiny, love and the choices that make a life.",
+            "popularity": 24.057,
+            "poster_path": "/gXt3eVpaBq6q9SaLDrgSnzsUyIl.jpg",
+            "release_date": "2023-06-02",
+            "title": "Past Lives",
+            "video": false,
+            "vote_average": 8,
+            "vote_count": 34
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lMZ4KpFi6nhm4VjPvAxUt18HeOx.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 814776,
+            "original_language": "en",
+            "original_title": "Bottoms",
+            "overview": "Unpopular best friends PJ and Josie start a high school fight club to meet girls and lose their virginity. They soon find themselves in over their heads when the most popular students start beating each other up in the name of self-defense.",
+            "popularity": 20.733,
+            "poster_path": "/i39klBPH7xe7ofHebGS7EnNnbBb.jpg",
+            "release_date": "2023-08-25",
+            "title": "Bottoms",
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4TAKTbN3viFUERDGAvEF1iuSHVD.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 500104,
+            "original_language": "en",
+            "original_title": "Aristotle and Dante Discover the Secrets of the Universe",
+            "overview": "Two teenage Mexican-American loners in 1987 El Paso explore a new, unusual friendship and the difficult road to self-discovery.",
+            "popularity": 27.74,
+            "poster_path": "/nqZx3FONbencjbjImxjJTCBn9Fw.jpg",
+            "release_date": "2023-09-08",
+            "title": "Aristotle and Dante Discover the Secrets of the Universe",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        }
+    ],
+    "total_pages": 19,
+    "total_results": 371
+}
