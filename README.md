@@ -20,4 +20,4 @@ https://www.themoviedb.org/settings/api to create an API key
 a. Usage: Personal
 b. Application Name: (anything)
 c. Application URL: None
-d. Application Summary: For a developer interview project
+d. Application Summary: movie browser level -1 ( you can get list of upcoming movie details)
